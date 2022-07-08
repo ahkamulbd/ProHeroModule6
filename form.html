@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Form</title>
+</head>
+
+<body>
+    <h1>Semantic Form</h1>
+    <p>Name: <input type="text" name="name" placeholder="Enter your name" id=""> </p>
+    <p>Email: <input type="email" name="email" placeholder="Enter your Email" id=""> </p>
+
+    <fieldset>
+        <legend>Select your course</legend>
+        <p>
+            <label for="html">
+                <input type="radio" id="html">
+                HTML</label>
+        </p>
+        <p>
+            <label for="css">
+                <input type="radio" id="CSS">
+                CSS</label>
+        </p>
+        <p>
+            <label for="js">
+                <input type="radio" id="js">
+                JavaScript</label>
+        </p>
+        <p>
+            <label for="bootstrap">
+                <input type="radio" id="bootstrap">
+                Bootstrap</label>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select your course</legend>
+        <p>
+            <label for="proHero">
+                <input type="checkbox" id="proHero">
+                Pro Hero</label>
+        </p>
+        <p>
+            <label for="phitron">
+                <input type="checkbox" id="phitron">
+                Phitron</label>
+        </p>
+        <p>
+            <label for="stackLearner">
+                <input type="checkbox" id="stackLearner">
+                Stack Learner</label>
+        </p>
+
+    </fieldset>
+
+    <p>Special Instruction:</p>
+    <textarea name="instruction" id="" cols="50" rows="7"></textarea>
+    <br>
+
+    <button type="submit">Button</button>
+    <button type="reset">Reset</button>
+</body>
+
+</html>
